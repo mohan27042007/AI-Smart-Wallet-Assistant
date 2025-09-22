@@ -1,0 +1,16 @@
+# Node.js dependencies
+node_modules/
+dist/
+build/
+
+# Hardhat artifacts
+artifacts/
+cache/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# VS Code settings
+.vscode/
