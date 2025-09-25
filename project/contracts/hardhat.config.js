@@ -12,11 +12,13 @@ module.exports = {
     },
   },
   networks: {
-    hardhat: {
-      // Default for testing
-    },
-    localhost: {
-      url: "http://127.0.0.1:8545",
-    },
+    hardhat: {},
+    sepolia: {
+        url: "https://eth-sepolia.g.alchemy.com/v2/g3MbG-3AQ2cJcUcoqiPIA",  // Replace with your key
+        accounts: ["1Ec1f1EA2dA52238808a8223CEC0B3Fe8bc41Cc4"]  // Replace with your wallet's private key (no 0x prefix)
+    }
   },
-};
+  etherscan: {
+    apiKey: "1BRQYW5Z7CRP6ZZ29WWW3TKYRVHBKDA4FK"  // For verification (get free from etherscan.io/apis)
+  }
+};  
